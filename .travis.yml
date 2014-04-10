@@ -5,6 +5,7 @@ before_install:
   - yes | sudo add-apt-repository ppa:hansjorg/rust
   - yes | sudo apt-add-repository ppa:sonkun/sfml-development
   - sudo apt-get update
+
 install:
   - sudo apt-get install rust-nightly
   - wget http://www.sfml-dev.org/download/sfml/2.1/SFML-2.1-linux-gcc-64bits.tar.bz2
